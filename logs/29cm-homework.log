@@ -1,0 +1,79 @@
+2021-01-08 16:40:55.211  INFO 13500 --- [main] k.co.ecommerce.market.MarketApplication  : Starting MarketApplication on ip-192-168-0-26.ap-northeast-2.compute.internal with PID 13500 (/Users/junyoung.choi/Workspace/LegacyProjects/study/homework/out/production/classes started by junyoung.choi in /Users/junyoung.choi/Workspace/LegacyProjects/study/homework)
+2021-01-08 16:40:55.213  INFO 13500 --- [main] k.co.ecommerce.market.MarketApplication  : No active profile set, falling back to default profiles: default
+2021-01-08 16:40:55.643  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-08 16:40:55.689  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 1 JPA repository interfaces.
+2021-01-08 16:40:55.929  INFO 13500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 16:40:55.962  INFO 13500 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-08 16:40:56.003  INFO 13500 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2021-01-08 16:40:56.042  INFO 13500 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-08 16:40:56.103  INFO 13500 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-08 16:40:56.174  INFO 13500 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 16:40:56.264  INFO 13500 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 16:40:56.275  INFO 13500 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-08 16:40:56.672  INFO 13500 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-08 16:40:56.677  INFO 13500 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-08 16:40:56.840  INFO 13500 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-08 16:40:56.850  INFO 13500 --- [main] k.co.ecommerce.market.MarketApplication  : Started MarketApplication in 2.08 seconds (JVM running for 3.011)
+2021-01-08 16:40:56.852  INFO 13500 --- [main] kr.co.ecommerce.market.view.InputView    : 입력(o[order]: 주문, q[quit]: 종료) : 
+2021-01-08 16:41:01.779  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 상품번호	상품명                              판매가격		재고수
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 782858		폴로 랄프로렌 남성 수영복반바지 컬렉션 (51color)		39500		50
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 779989		버드와이저 HOME DJing 굿즈 세트		35000		43
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 779943		Fabrik Pottery Flat Cup & Saucer - Mint		24900		89
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 779049		[리퍼브/키친마켓] Fabrik Pottery Cup, Saucer (단품)		10000		64
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 778422		캠핑덕 우드롤테이블		45000		7
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 768848		[STANLEY] GO CERAMIVAC 진공 텀블러/보틀 3종		21000		45
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 768110		네페라 손 세정제 대용량 500ml 이더블유지		7000		79
+2021-01-08 16:41:01.780  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 760709		파버카스텔 연필1자루		200		70
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 759928		마스크 스트랩 분실방지 오염방지 목걸이		2800		85
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 748943		디오디너리 데일리 세트 (Daily set)		19000		89
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 744775		SHUT UP [TK00112]		28000		35
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 706803		ZEROVITY™ Flip Flop Cream 2.0 (Z-FF-CRAJ-)		38000		81
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 648418		BS 02-2A DAYPACK 26 (BLACK)		238000		5
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 628066		무설탕 프로틴 초콜릿 틴볼스		12900		8
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 611019		플루크 new 피그먼트 오버핏 반팔티셔츠 FST701 / 7color M		19800		7
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 517643		에어팟프로 AirPods PRO 블루투스 이어폰(MWP22KH/A)		260800		26
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 502480		[29Edition.]_[스페셜구성] 렉시 브라렛 세트(브라1+팬티2)		24900		41
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 377169		[29Edition.]_[스페셜구성] 뉴코튼베이직 브라렛 세트 (브라1+팬티2)		24900		60
+2021-01-08 16:41:01.781  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Products   : 213341		20SS 오픈 카라/투 버튼 피케 티셔츠 (6color)		33250		99
+2021-01-08 16:41:01.782  INFO 13500 --- [main] kr.co.ecommerce.market.view.InputView    : 상품번호 : 
+2021-01-08 16:41:05.998  INFO 13500 --- [main] kr.co.ecommerce.market.view.InputView    : 수량 : 
+2021-01-08 16:41:07.656  INFO 13500 --- [main] kr.co.ecommerce.market.view.InputView    : 상품번호 : 
+2021-01-08 16:41:08.891  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : 주문내역 : 
+2021-01-08 16:41:08.891  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : -----------------------------------------
+2021-01-08 16:41:08.891  INFO 13500 --- [main] kr.co.ecommerce.market.domain.Carts      : [29Edition.]_[스페셜구성] 뉴코튼베이직 브라렛 세트 (브라1+팬티2) - 1개
+2021-01-08 16:41:08.891  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : -----------------------------------------
+2021-01-08 16:41:08.893  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : 주문금액 : 24,900
+2021-01-08 16:41:08.894  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : 배송비 : 5,000
+2021-01-08 16:41:08.894  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : -----------------------------------------
+2021-01-08 16:41:08.894  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : 지불금액 : 29,900
+2021-01-08 16:41:08.894  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : -----------------------------------------
+2021-01-08 16:41:08.915  INFO 13500 --- [main] kr.co.ecommerce.market.view.InputView    : 입력(o[order]: 주문, q[quit]: 종료) : 
+2021-01-08 16:41:12.722  INFO 13500 --- [main] kr.co.ecommerce.market.view.OutputView   : 고객님의 주문 감사합니다.
+2021-01-08 16:41:12.725  INFO 13500 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-08 16:41:12.725  INFO 13500 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-08 16:41:12.731  INFO 13500 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-08 16:41:12.731  INFO 13500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-08 16:41:12.734  INFO 13500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-08 16:44:15.285  INFO 13648 --- [main] k.co.ecommerce.market.MarketApplication  : Starting MarketApplication on ip-192-168-0-26.ap-northeast-2.compute.internal with PID 13648 (/Users/junyoung.choi/Workspace/LegacyProjects/study/market/out/production/classes started by junyoung.choi in /Users/junyoung.choi/Workspace/LegacyProjects/study/market)
+2021-01-08 16:44:15.288  INFO 13648 --- [main] k.co.ecommerce.market.MarketApplication  : No active profile set, falling back to default profiles: default
+2021-01-08 16:44:15.670  INFO 13648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-08 16:44:15.721  INFO 13648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+2021-01-08 16:44:15.931  INFO 13648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 16:44:15.965  INFO 13648 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-08 16:44:16.001  INFO 13648 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2021-01-08 16:44:16.037  INFO 13648 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-08 16:44:16.104  INFO 13648 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-08 16:44:16.170  INFO 13648 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 16:44:16.255  INFO 13648 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 16:44:16.267  INFO 13648 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-08 16:44:16.646  INFO 13648 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-08 16:44:16.651  INFO 13648 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-08 16:44:16.817  INFO 13648 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-08 16:44:16.828  INFO 13648 --- [main] k.co.ecommerce.market.MarketApplication  : Started MarketApplication in 1.815 seconds (JVM running for 2.315)
+2021-01-08 16:44:16.829  INFO 13648 --- [main] kr.co.ecommerce.market.view.InputView    : 입력(o[order]: 주문, q[quit]: 종료) : 
+2021-01-08 16:44:18.848  INFO 13648 --- [main] kr.co.ecommerce.market.view.OutputView   : 고객님의 주문 감사합니다.
+2021-01-08 16:44:18.851  INFO 13648 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-08 16:44:18.852  INFO 13648 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-08 16:44:18.858  INFO 13648 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-08 16:44:18.858  INFO 13648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-08 16:44:18.861  INFO 13648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
